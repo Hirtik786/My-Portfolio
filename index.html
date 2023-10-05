@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row">
+      <div class="div1">
+        <img src="./img/profile.jpg" alt="" />
+        <h1>Hirtik Karwa</h1>
+        <nav>
+          <ul>
+            <li><a href="#section1">About</a></li>
+            <li><a href="#section2">Education</a></li>
+            <li><a href="#section3">Skills</a></li>
+            <li><a href="#section4">Projects</a></li>
+            <li><a href="#section5">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="div2">
+        <section class="section" id="section1">
+          <h1 class="heading">About</h1>
+          <p id="name"><span style="color: white">Hirtik</span> Karwa</p>
+          <p id="address">
+            Near Murlidhar Temple, Maheshwari Mohalla Mithi · (+92) 336-2291183
+          </p>
+          <p id="mail">
+            <a href="mailto:karwahirtik@gmail.com">karwahirtik@gmail.com</a>
+          </p>
+          <p id="description">
+            I am Highly skilled front-end web developer with a passion for
+            creating exceptional user experiences. Proficient in HTML, CSS, and
+            JavaScript, with a strong understanding of modern web development
+            frameworks and libraries. Collaborative team player with excellent
+            problem-solving abilities and a keen eye for design aesthetics.
+            Committed to staying up-to-date with the latest industry trends and
+            continuously improving skills to deliver cutting-edge web solutions.
+          </p>
+          <p id="cv">
+            <a
+              href="https://drive.google.com/file/d/11nPpORfpoCtTp8SecX3PDPyuE8dXuKbg/view?usp=drive_link"
+              target="_blank"
+              ><button class="mt-5" id="button">Download My CV</button></a
+            >
+          </p>
+        </section>
+        <section class="section" id="section2">
+          <h1 class="heading">Education</h1>
+          <div style="width: 90%">
+            <p class="heading_2">Web development</p>
+            <p class="academy">
+              Ihunar Academy mithi <span>FEB 2023 - AUG 2023</span>
+            </p>
+          </div>
+          <div style="width: 90%">
+            <p class="heading_2">Intermediate</p>
+            <p class="academy">
+                S.F Govt. Degree College Mithi <span>NOV 2020 - NOV 2022</span>
+            </p>
+          </div>
+          <div style="width: 90%">
+            <p class="heading_2">Matriculations</p>
+            <p class="academy">
+                Al-Mehran Public Higher Secondary School Mithi <span>OCT 2018 - OCT 2020</span>
+            </p>
+          </div>
+        </section>
+        <section class="section" id="section3">
+          <h1 class="heading">Skills</h1>
+          <div id="div3">
+            <div class="part">
+                <h1 id="items_heading">PROGRAMMING LANGUAGES & TOOLS</h1>
+                <ul>
+                    <li class="items">HTML5</li>
+                    <li class="items">CSS3</li>
+                    <li class="items">JavaScript</li>
+                    <li class="items">React JS</li>
+                    <li class="items">Bootstrap</li>
+                    <li class="items">Firebase</li>
+                    <li class="items">Github</li>
+                </ul>
+            </div>
+            <div class="part">
+                <h1 id="items_heading">WORKFLOW</h1>
+                <ul>
+                    <li class="items">HTML/CSS Markup</li>
+                    <li class="items">JavaScript Development</li>
+                    <li class="items">Responsive Design</li>
+                    <li class="items">Cross Browser Testing</li>
+                    <li class="items">Debugging</li>
+                    <li class="items">Mobile-First</li>
+                    <li class="items">Continuous Improvement</li>
+                </ul>
+            </div>
+          </div>
+        </section>
+        <section class="section" id="section4">
+          <h1 class="heading">Projects</h1>
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade1">
+              <div class="numbertext1">1 / 4</div>
+              <a href="https://user-login-signup.vercel.app/" target="_blank"><img src="img/signup.png" style="width:100%" height="400px"></a>
+              <div class="headText">
+                <div class="text1">Signup portal using html, css, bootstrap, JavaScript, firebase </div>
+              </div>
+            </div>
+          
+            <div class="mySlides fade1">
+              <div class="numbertext1">2 / 4</div>
+              <a href="https://to-do-list-project-omega.vercel.app/" target="_blank"><img src="./img/to-do-list.png" style="width:100%" height="400px"></a>
+              <div class="headText">
+                <div class="text1">To Do List using html, css & JavaScript</div>
+              </div>
+            </div>
+          
+            <div class="mySlides fade1">
+              <div class="numbertext1">3 / 4</div>
+              <a href="https://dashboard-ten-jet.vercel.app/" target="_blank"><img src="img/dashboard.png" style="width:100%" height="400px"></a>
+              <div class="headText">
+                <div class="text1">Dashboard using html, css , bootstrap , JavaScript & firebase</div>
+              </div>
+            </div>
+          
+           <div class="mySlides fade1">
+              <div class="numbertext1">4 / 4</div>
+              <a href="https://dashboard-ten-jet.vercel.app/" target="_blank"><img src="img/dashboard2.png" style="width:100%" height="400px"></a>
+              <div class="headText">
+                <div class="text1">Dashboard using html, css , bootstrap , JavaScript & firebase</div>
+              </div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev1" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next1" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center;">
+            <span class="dot1" onclick="currentSlide(1)"></span>
+            <span class="dot1" onclick="currentSlide(2)"></span>
+            <span class="dot1" onclick="currentSlide(3)"></span>
+            <span class="dot1" onclick="currentSlide(4)"></span>
+          </div>
+        </section>
+        <section class="section" id="section5">
+          <h1 class="heading">Contacts</h1>
+          <div style="width: 90%; display: flex; flex-direction: column; padding: 100px 0px 0px 50px;">
+        <p id="line">Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+            <input type="text" name="name" id="name1" placeholder="Name" class="form">
+          <input type="email" name="email"  id="email" placeholder="Email" class="form">
+          <textarea rows="4" id="message" placeholder="Message" class="form"></textarea>
+          <p id="alertmessage"></p>
+          <button id="button" onclick="contact()">Get In Touch</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
